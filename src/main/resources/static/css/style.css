@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+
+body {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url('/images/img.png');
+	background-size: cover;
+
+
+}
+
+.box {
+
+	border-radius: 18px;
+	width: 480px;
+	height: 480px;
+	padding: 80px 0 80px 90px;
+	background-color: rgba(240, 248, 255, 0.587);
+	;
+	backdrop-filter: blur(3px);
+
+}
+
+.hostel {
+
+	margin-top: -81px;
+	margin-left: -91px;
+	border-radius: 18px;
+	width: 479px;
+	height: 100px;
+	text-align: center;
+	border-bottom: 2px solid;
+
+}
+
+.hostel header {
+	font-size: 23px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.admission {
+	margin-top: 60px;
+}
+
+.admission button {
+
+	color: #fff;
+	width: 300px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #0e0d0d;
+}
+
+button:hover {
+	background-color: #000;
+	transform: scale(1.05, 1);
+}
+
+.room input {
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 30px;
+	margin-top: 20px;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #0e0d0d;
+
+}
+
+::placeholder {
+	color: #ffffffcf;
+	text-align: center;
+	font-size: 20px;
+}
+
+.room input:hover {
+	background-color: #000;
+	transform: scale(1.05, 1);
+}
+
+.hostellist button {
+	color: #fff;
+	width: 300px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 30px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #0e0d0d;
+}
+
+.submit input {
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	margin: 20px 190px;
+	border: none;
+	border-radius: 18px;
+	background-color: rgb(1, 30, 35);
+}
+
+.submit input:hover {
+	background-color: #000;
+	transform: scale(1.05, 1);
+}
+
+.box p {
+	color: rgba(251, 9, 9, 0.911);
+	font-style: italic;
+	font-family: Arial, Helvetica, monospace, cursive;
+}
